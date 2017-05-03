@@ -74,4 +74,5 @@ if __name__ == '__main__':
     args = sys.argv
     if len(args)>1 and args[1]=="1layer":
         main1()
-    main2()
+    else:
+        main2()
